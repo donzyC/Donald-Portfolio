@@ -129,7 +129,7 @@ import {
       ],
     },
     {
-      title: "Aerospace Engineer",
+      title: "Aerospace Engineer Intern",
       company_name: "Dana Air",
       icon: danaair,
       iconBg: "#383E56",

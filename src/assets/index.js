@@ -6,6 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import link from "./link.svg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -29,6 +30,7 @@ import danaair from "./company/danaair.png";
 import gymbuddy from "./gymbuddy.png";
 import jobit from "./jobit.png";
 import chatbot from "./chatbot.png";
+import dxai from "./dxai.png";
 
 export {
   logo,
@@ -59,4 +61,6 @@ export {
   gymbuddy,
   jobit,
   chatbot,
+  dxai,
+  link,
 };

@@ -23,6 +23,7 @@ import {
     jobit,
     chatbot,
     threejs,
+    dxai,
   } from "../assets";
   
   export const navLinks = [
@@ -198,68 +199,69 @@ import {
   
   const projects = [
     {
-      name: "Gym Buddy",
-      description:
-        "Web-based platform that allows users to search and connect with other gym enthusiats solving the problem of gym users feeling demotivated and lonely during workouts.",
-      tags: [
-        {
-          name: "html",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: gymbuddy,
-      source_code_link: "https://github.com/donzyC/GymBuddy-Project",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Chat Bot",
-      description:
-        "An application made to comprehend user queries and provide effective responses through the processing and analysis of input data.",
-      tags: [
-        {
-          name: "python",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: chatbot,
-      source_code_link: "https://github.com/donzyC/chatbot-",
-    },
+        name: "DxAI",
+        description:
+          "An AI-powered health assistant that provides medical recommendations based on symptoms, featuring real-time symptom analysis, disease prediction, and personalized treatment recommendations.",
+        tags: [
+          {
+            name: "python",
+            color: "blue-text-gradient",
+          },
+          {
+            name: "machine learning",
+            color: "green-text-gradient",
+          },
+          {
+            name: "bootstrap",
+            color: "pink-text-gradient",
+          },
+        ],
+        image: dxai,
+        source_code_link: "https://github.com/donzyC/DxAi",
+        live_demo_link: "https://dxai.onrender.com"
+      },
+      {
+        name: "Chat Bot",
+        description:
+          "An application made to comprehend user queries and provide effective responses through the processing and analysis of input data.",
+        tags: [
+          {
+            name: "python",
+            color: "blue-text-gradient",
+          },
+          {
+            name: "supabase",
+            color: "green-text-gradient",
+          },
+          {
+            name: "css",
+            color: "pink-text-gradient",
+          },
+        ],
+        image: chatbot,
+        source_code_link: "https://github.com/donzyC/chatbot-",
+      },
+      {
+        name: "Gym Buddy",
+        description:
+          "Web-based platform that allows users to search and connect with other gym enthusiats solving the problem of gym users feeling demotivated and lonely during workouts.",
+        tags: [
+          {
+            name: "html",
+            color: "blue-text-gradient",
+          },
+          {
+            name: "mongodb",
+            color: "green-text-gradient",
+          },
+          {
+            name: "css",
+            color: "pink-text-gradient",
+          },
+        ],
+        image: gymbuddy,
+        source_code_link: "https://github.com/donzyC/GymBuddy-Project",
+      },
   ];
   
   export { services, technologies, experiences, testimonials, projects };

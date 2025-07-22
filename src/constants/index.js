@@ -218,7 +218,7 @@ import {
         ],
         image: dxai,
         source_code_link: "https://github.com/donzyC/DxAi",
-        live_demo_link: "https://dxai.up.railway.app"
+        live_demo_link: "https://dxai.onrender.com"
       },
       {
         name: "Chat Bot",
